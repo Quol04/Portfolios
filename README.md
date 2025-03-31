@@ -5,4 +5,5 @@
 | Days | Section | Hours |
 |-------|-------|-------|
 | Sunday| planning| 3hrs|
+| Monday | NavBar & Hero Section|2hrs 30min |
 
