@@ -343,6 +343,72 @@ button{
 }
 
 
+/* <!-- ===========================PROJECT SECTION=========================== --> */
+.projects{
+    background: var(--color-gray-0);
+}
+.projects .container{
+    padding: 3rem 0;
+}
+.projects.container h4{
+    text-align: center;
+    margin-bottom: 2rem 0;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 3rem 0; 
+}
+
+
+/* <!-- ===========================CONTACT SECTION=========================== --> */
+.contact-me .container{
+    padding: 3rem 0;
+}
+.contact-me .container h4{
+    text-align: center;
+    margin-bottom: 2rem ;
+}
+/* .message{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 3rem 0; 
+} */
+
+
+
+/* <!-- ===========================FOOTER=========================== --> */
+.footer{
+    background: var(--color-gray-600);
+    color: var(--color-gray-0);
+    /* padding: 1rem 0; */
+}
+.footer .container{
+    padding: 3rem 0;
+}
+.socials-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0; 
+    color: var(--color-gray-0);
+}
+.socials-links a{
+    font-size: 2rem;
+    background-color: var(--color-gray-0);
+    padding: 1rem 0; 
+    /* border: var(--color-gray-0); */
+
+    color: var(--color-gray-900);
+}
+   
+.socials-links a:hover{
+    color: var(--color-primary);
+}
+
+
 /* ====media query-section========= */
 @media (max-width: 800px) {
     .container{

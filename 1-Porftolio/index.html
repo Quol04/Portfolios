@@ -157,60 +157,79 @@
 
 
     <!-- ===========================Projects Section=========================== -->
-    <!-- <section class="projects" id="projects">
-        <div class="container">
-            <h2>Our Projects</h2>
+    <section class="projects" >
+        <div class=" projects container">
+            <h4>My Projects</h4>
             <div class="project-list">
                 <div class="project-item">
                     <h3>Project 1</h3>
                     <p>Description of Project 1.</p>
                 </div>
+
                 <div class="project-item">
                     <h3>Project 2</h3>
                     <p>Description of Project 2.</p>
                 </div>
+
                 <div class="project-item">
                     <h3>Project 3</h3>
                     <p>Description of Project 3.</p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
     <!-- ===========================Contact Section=========================== -->
-    <!-- <section class="contact" id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div> -->
+    <section class="contact-me" >
+        <div class="contact-me container">
+            <h4>Contact Me</h4>
+            <p>If you have any questions or want to work together, feel free to reach out!</p>
+            <div class="info-me">
+                <div class="message">
+                    <form action="#" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Enter Your Name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Enter Your Email" required><br>
+                        <label for="message">Message:</label><br>
+                        <select name="mesage" id="message">Choose Your Message</select>
+                            <option value="message">General Inquiry</option>
+                            <option value="message">Project Proposal</option>
+                            <option value="message">Feedback</option>
+                            <option value="message">Other</option>
+                        </select><br>
 
-    <!-- ===========================Footer=========================== -->
-    <!-- <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-               <div class="hero-socials">
-                <ul class="social-links">
-                    <li><a href="#"><i class="uil uil-github"></i></a></li>
-                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
-                    <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
-                </ul>
-            </div>
-                <p>&copy; 2025 Quol Software Dev. All rights reserved.</p>
-                <ul>
-                    <li><a href="#">Terms of Services</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-               
+                        <!-- <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br> -->
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="my-details">
+                    
+                </div>
             </div>
         </div>
-    </footer> -->
+    </section>
+
+    <!-- ===========================Footer=========================== -->
+    <footer class="footer">
+        <div class="footer container">
+               <div class="socials-links">
+                    <a href="#"><i class="uil uil-github"></i></a>
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-linkedin"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+               </div>
+               
+                <div class="footer-links"> 
+                   <a href="#">Terms of Services</a>
+                   <a href="#">Privacy Policy</a>
+                   <a href="#">Contact Us</a>
+                </div>
+                <p>&copy; 2025 Quol Software Dev. All rights reserved.</p>
+               
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
