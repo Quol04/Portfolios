@@ -249,7 +249,7 @@ button{
 }
 
 
-/* ====about-section========= */
+/* ============ABOUT SECTION========= */
 .about{
    background-color: var(--color-gray-0);
 }
@@ -375,6 +375,24 @@ button{
     .menu{
         display: block;
     }
+    .about-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem 0; 
+    }
+    .tech-skills{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem 0; 
+    }
+    .tech-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 1rem 0; 
+    }
 }
 
 @media (max-width: 500px) {
@@ -384,5 +402,11 @@ button{
     .hero-section{
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    .about-cards{
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 2rem;
+        
     }
 }
