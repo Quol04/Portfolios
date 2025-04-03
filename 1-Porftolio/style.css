@@ -383,7 +383,6 @@ button{
 .footer{
     background: var(--color-gray-600);
     color: var(--color-gray-0);
-    /* padding: 1rem 0; */
 }
 .footer .container{
     padding: 3rem 0;
@@ -394,17 +393,35 @@ button{
     align-items: center;
     padding: 1rem 0; 
     color: var(--color-gray-0);
+    /* font-size: 1.6rem; */
 }
+.socials-links :hover{
+    color: var(--color-primary);
+}
+
 .socials-links a{
     font-size: 2rem;
     background-color: var(--color-gray-0);
-    padding: 1rem 0; 
-    /* border: var(--color-gray-0); */
-
-    color: var(--color-gray-900);
+    padding: 0.5rem; 
+    border-radius: 50%;
 }
    
 .socials-links a:hover{
+    color: var(--color-primary);
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0; 
+    color: var(--color-gray-0);
+}
+.footer-links a{
+    color: var(--color-gray-0);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-links a:hover{
     color: var(--color-primary);
 }
 
@@ -470,9 +487,29 @@ button{
         gap: 2rem;
     }
     .about-cards{
-        display: grid;
         grid-template-columns:  1fr;
-        gap: 2rem;
         
+    }
+    .tech-list{
+        grid-template-columns: 1fr;
+    }
+    .project-list{
+        grid-template-columns: 1fr;
+    }
+
+    .socials-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .socials-links a{
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+       text-align: center;
     }
 }
