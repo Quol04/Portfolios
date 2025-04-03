@@ -198,13 +198,17 @@ nav{
 
 
 
-/* ====hero-section========= */
+/* ====HERO SECTION========= */
 .hero-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 5rem 0; 
     margin-top: 4rem;
+}
+span{
+    color: var(--color-primary);
+    font-weight: 800;
 }
 .hero-content h1,p{
     margin: 1rem 0;
@@ -225,11 +229,11 @@ nav{
 }
 .hero-image img{
     display: flex;
-    width: 100%;
-    height:18rem ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height:23rem ;
+    object-fit: cover;
     border-radius: var(--radius-3);
 }
 
@@ -251,6 +255,11 @@ nav{
 .about .container h4{
    text-align: center;
 }
+.resume-me{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0; 
+}
 
 .about-cards{
     display: grid;
@@ -266,7 +275,6 @@ nav{
 }
 .about-cards .card:hover{
     background: var(--color-primary);
-    /* color: var(--color-gray-0); */
     box-shadow: none;
 }
 
@@ -537,6 +545,14 @@ input{
     #open-menu{
         display: inline-block;
     }
+    .hero-content h1{
+        font-size: 1.8rem;
+        
+    }
+    .cta{
+        justify-content: center;
+        align-items: center;
+    }
    
     .about-section{
         display: grid;
@@ -544,6 +560,7 @@ input{
         gap: 2rem;
         padding: 1rem 0; 
     }
+   
     .tech-skills{
         display: grid;
         grid-template-columns: 1fr;
@@ -582,6 +599,11 @@ input{
     .about-cards{
         grid-template-columns:  1fr;
         
+    }
+     .resume-me{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* padding: 1rem 0;  */
     }
     .tech-list{
         grid-template-columns: 1fr;
