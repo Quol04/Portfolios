@@ -1,6 +1,9 @@
 # Portfolio Website 
 ## My portfolio website showcases my skills, projects, and experience as a Full-Stack Developer (*Front-End* for now). 
-### Started on 30th March and to be submitted on 4th April
+### Started on 30th March and to be submitted on 4th April 2025
+
+### Live Demo & Setup
+🔗[Live Demo](https://quol-developer.netlify.app/)
 
 ### Tech Stack
 Frontend: HTML, CSS, JavaScript
@@ -8,6 +11,8 @@ Frontend: HTML, CSS, JavaScript
 Styling: CSS Flexbox & Grid, Custom Animations
 
 Performance: Optimized for speed and accessibility
+
+
 
 ###  Sections
 **Home**: Introduction with a professional tagline.

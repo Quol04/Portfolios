@@ -1,6 +1,5 @@
 :root{
     --color-primary:#02a1df;
-    --color-primary-variant:#f9f221;
     --color-gray-0:#f3f6f7;
     --color-gray-50:#d6e1e6;
     --color-gray-100:#bdcdd4;
@@ -12,9 +11,6 @@
     --color-gray-700:#2a3439;
     --color-gray-800:#182023;
     --color-gray-900:#080b0c;
-    --color-danger:#c72156;
-    --color-success:#06c4c4;
-    --color-info:#F8F9FA;
    
     --transition:all 300ms ease ;
 
@@ -114,7 +110,7 @@ button{
     box-shadow: none;
 }
 
-/* ====Navigation section==== */
+/* ===================NAVIGATION SECTION=============== */
 nav{
     position: fixed;
     top: 0;
@@ -130,8 +126,6 @@ nav{
     align-items: center;
     padding: 1rem 0;
     background: var(--color-primary);
-
-   
     
 }
 .nav-bar .logo{
@@ -198,7 +192,7 @@ nav{
 
 
 
-/* ====HERO SECTION========= */
+/* =================HERO SECTION====================== */
 .hero-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -238,7 +232,7 @@ span{
 }
 
 
-/* ============ABOUT SECTION========= */
+/* =================ABOUT SECTION================= */
 .about{
    background-color: var(--color-gray-0);
 }
@@ -277,6 +271,19 @@ span{
     background: var(--color-primary);
     box-shadow: none;
 }
+.card .uil{
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    padding: 0.8rem;
+    border-radius: var(--radius-3);
+    background-color: var(--color-gray-0);
+    display: inline-block;
+    margin: 0.4rem;
+}
+.card .uil:hover{
+    background: var(--color-gray-900);
+    color: var(--color-gray-0);
+}
 
 
 
@@ -314,6 +321,19 @@ span{
     color: var(--color-gray-900);
     box-shadow: none;
 }
+.tech-skills .uil{
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    padding: 0.8rem;
+    border-radius: var(--radius-3);
+    background-color: var(--color-gray-0);
+    display: inline-block;
+    margin: 0.4rem;
+}
+.tech-skills .uil:hover{
+    background: var(--color-primary);
+    color: var(--color-gray-900);
+}
 .tech-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -332,9 +352,22 @@ span{
     color: var(--color-gray-0);
     box-shadow: none;
 }
+.tech-item .uil{
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    padding: 0.8rem;
+    border-radius: var(--radius-3);
+    background-color: var(--color-gray-600);
+    display: inline-block;
+    margin: 0.4rem;
+}
+.tech-item .uil:hover{
+    background: var(--color-gray-0);
+    color: var(--color-gray-900);
+}
 
 
-/* <!-- ===========================PROJECT SECTION=========================== --> */
+/* <!-- =================PROJECT SECTION=================== --> */
 .projects{
     background: var(--color-gray-0);
 }
@@ -350,6 +383,12 @@ span{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 3rem 0; 
+}
+.project-list h3{
+    padding: 2rem;
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-900);
+    border-radius: var(--radius-3);
 }
 .project-item{
     background: var(--color-gray-100);
@@ -369,12 +408,11 @@ span{
 }
 .project-item:hover{
     background: var(--color-primary);
-    /* color: var(--color-gray-0); */
     box-shadow: none;
 }
 
 
-/* <!-- ===========================CONTACT SECTION=========================== --> */
+/* <!-- =================CONTACT SECTION=================== --> */
 .contact-me .container{
     padding: 3rem 0;
 }
@@ -385,7 +423,6 @@ span{
 .contact-me .container p{
     font-size: 1.4rem;
     color: var(--color-gray-900);
-    /* margin-bottom: 2rem ; */
 }
 .info-me{
     display: grid;
@@ -573,6 +610,9 @@ input{
         gap: 2rem;
         padding: 1rem 0; 
     }
+    .project-list{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 500px) {
@@ -603,7 +643,6 @@ input{
      .resume-me{
         display: grid;
         grid-template-columns: 1fr;
-        /* padding: 1rem 0;  */
     }
     .tech-list{
         grid-template-columns: 1fr;
