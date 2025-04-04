@@ -32,12 +32,14 @@ Performance: Optimized for speed and accessibility
 
 
  ### Live Demo & Setup
-🔗[Live Demo](www.google.com)
+🔗[Live Demo](https://quol-developer.netlify.app/)
 
 #### To run locally:
 **1. Clone the repository**:
 > git clone git@github.com:Quol04/Portfolios.git
+> 
 **2. Navigate to the project directory**:
 > cd portfolios
+> 
 **3. Open index.html in your browser**.
 
