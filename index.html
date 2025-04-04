@@ -199,19 +199,13 @@
             <p>If you have any questions or want to work together, feel free to reach out!</p>
             <div class="info-me">
                 <div class="message">
-                    <form action="#" method="POST">
+                    <form action="#" method="POST" data-netlify="true" name="contact" class="contact-form">
+                        <input type="hidden" name="form-name" value="contact">
                         <label for="name">Name:</label>
                         <input type="text" name="name" placeholder="Enter Your Name" required><br>
                         <label for="email">Email:</label>
                         <input type="email" name="email" placeholder="Enter Your Email" required><br>
                         <label for="message">Message:</label><br>
-                        <!-- <select name="mesage" id="message">Choose Your Message</select>
-                            <option value="message">General Inquiry</option>
-                            <option value="message">Project Proposal</option>
-                            <option value="message">Feedback</option>
-                            <option value="message">Other</option>
-                        </select><br> -->
-
                         <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
                         <button type="submit" class="btn primary">Send Message</button>
                     </form>
