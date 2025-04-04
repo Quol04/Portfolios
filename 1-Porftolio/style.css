@@ -482,7 +482,7 @@ input{
 
 
 /* ====media query-section========= */
-@media (max-width: 800px) {
+@media (max-width: 822px) {
     .container{
         width: var(--container-w-md);
     }
