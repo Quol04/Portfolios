@@ -519,7 +519,7 @@ input{
 }
 
 
-/* ====media query-section========= */
+/* ===========MEDIA QUERY AND SCREEN SECTION========= */
 @media (max-width: 822px) {
     .container{
         width: var(--container-w-md);

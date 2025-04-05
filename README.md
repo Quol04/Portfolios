@@ -4,15 +4,15 @@
 
 ### Live Demo & Setup
 🔗[Live Demo](https://quol-developer.netlify.app/)
+---
 
 ### Tech Stack
-Frontend: HTML, CSS, JavaScript
+**Frontend**: HTML, CSS, JavaScript
 
-Styling: CSS Flexbox & Grid, Custom Animations
+**Styling**: CSS Flexbox & Grid, Custom Animations
 
-Performance: Optimized for speed and accessibility
-
-
+**Performance**: Optimized for speed and accessibility
+---
 
 ###  Sections
 **Home**: Introduction with a professional tagline.
@@ -24,6 +24,7 @@ Performance: Optimized for speed and accessibility
 **Skills**: Technologies and frameworks I specialize in.
 
 **Contact**: Links to my email, GitHub, X platform, and LinkedIn.
+---
 
 ### Milestones:
 | Days | Section | Hours |
@@ -35,8 +36,7 @@ Performance: Optimized for speed and accessibility
 |Thursday 3/4/ |Screen Responsiveness | 5hrs |
 |Friday 4/4/ |Submision| 1hr|
 
-
- ### Live Demo & Setup
+### Live Demo & Setup
 🔗[Live Demo](https://quol-developer.netlify.app/)
 
 #### To run locally:
