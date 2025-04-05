@@ -492,11 +492,12 @@ input{
     font-size: 2rem;
     background-color: var(--color-gray-0);
     padding: 0.5rem; 
-    border-radius: 50%;
+    border-radius: 30px;
 }
    
 .socials-links a:hover{
     color: var(--color-primary);
+    background-color: var(--color-gray-900);
 }
 .footer-links{
     display: flex;
@@ -592,20 +593,17 @@ input{
     }
    
     .about-section{
-        display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 1rem 0; 
     }
    
     .tech-skills{
-        display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 1rem 0; 
     }
     .tech-list{
-        display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
         padding: 1rem 0; 
@@ -662,7 +660,8 @@ input{
     }
     .socials-links a{
         margin: 0 auto;
-        padding: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
     }
     .footer-links{
         display: grid;
