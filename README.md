@@ -4,6 +4,7 @@
 
 ### Live Demo & Setup
 🔗[Live Demo](https://quol-developer.netlify.app/)
+
 ---
 
 ### Tech Stack
@@ -25,6 +26,7 @@
 **Skills**: Technologies and frameworks I specialize in.
 
 **Contact**: Links to my email, GitHub, X platform, and LinkedIn.
+
 ---
 
 ### Milestones:
