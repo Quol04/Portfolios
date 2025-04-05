@@ -12,6 +12,7 @@
 **Styling**: CSS Flexbox & Grid, Custom Animations
 
 **Performance**: Optimized for speed and accessibility
+
 ---
 
 ###  Sections
