@@ -266,6 +266,8 @@ span{
     padding: 2rem;
     border-radius: var(--radius-3);
     box-shadow: 0.3rem 0.7rem 0.5rem var(--color-gray-400);
+    cursor: pointer;
+    transition: var(--transition);
 }
 .about-cards .card:hover{
     background: var(--color-primary);
@@ -529,7 +531,7 @@ input{
     }
     .hero-section{
         grid-template-columns:  1fr 1fr;
-        gap: 2rem;
+        margin-top: 2rem;
     }
     .hero-image img{
         height: 100%;
@@ -539,7 +541,9 @@ input{
     }
     .contact a{
         display: none;
+        
     }
+    
     #close-menu{
         display: none;
     }
@@ -630,9 +634,10 @@ input{
     .container{
         width: var(--container-w-md);
     }
+    
     .hero-section{
         grid-template-columns: 1fr;
-        gap: 2rem;
+        margin-top: auto;
     }
     .about-cards{
         grid-template-columns:  1fr;
