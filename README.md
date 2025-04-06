@@ -32,12 +32,12 @@
 ### Milestones:
 | Days | Section | Hours |
 |-------|-------|-------|
-| Sunday 30/3/| planning| 3hrs|
-| Monday 31/3/| NavBar & Hero Section|2hrs 30min |
-|Tuesday 1/4/|About & Skills Section |3hrs |
-|Wednesday 2/4/| Project,Contact & Footer section| 3hrs 20mins|
-|Thursday 3/4/ |Screen Responsiveness | 5hrs |
-|Friday 4/4/ |Submision| 1hr|
+| Sunday 30/3/2025| planning| 3hrs|
+| Monday 31/3/2025| NavBar & Hero Section|2hrs 30min |
+|Tuesday 1/4/2025|About & Skills Section |3hrs |
+|Wednesday 2/4/2025| Project,Contact & Footer section| 3hrs 20mins|
+|Thursday 3/4/2025 |Screen Responsiveness | 5hrs |
+|Friday 4/4/2025 |Submision| 1hr|
 
 ### Live Demo & Setup
 🔗[Live Demo](https://quol-developer.netlify.app/)
